@@ -2,7 +2,7 @@
   "author": {
     "name": "JomartinezZhu",
     "email": "416767967@qq.com",
-    "url": ""
+    "url": "https://github.com/JoMartinezZhu/henry-validate-commitmsg.git"
   },
   "bin": {
     "henry-validate-commitmsg": "./lib/cli.js"
@@ -55,7 +55,7 @@
     "index.js",
     "lib"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/JoMartinezZhu/henry-validate-commitmsg.git",
   "keywords": [
     "githook",
     "commit",
@@ -84,5 +84,5 @@
     "test:watch": "istanbul cover -x test/**/*.test.js node_modules/mocha/bin/_mocha -- -R spec -w test/**/*.test.js",
     "validate": "npm t && npm run check-coverage"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
